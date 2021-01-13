@@ -15,3 +15,5 @@ obj1 = A()
 obj2 = B()
 
 print(obj1.two(), obj2.two())
+
+# Obj1 uses its two() function. Therefore it returns B. Obj2 also uses its two() function and calls the parent class's one() function; therefore, it returns A, and we don't see any errors.
